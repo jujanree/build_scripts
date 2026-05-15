@@ -15,5 +15,4 @@ cd /D %thispath%/../..
 python -m venv dev
 call %thispath%/activate.bat
 pip install -r requirements.txt
-call %thispath%/deactivate.bat
 endlocal
